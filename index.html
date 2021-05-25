@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senseition</title>
+    <meta name="description" content="指導案検索サイト">
+    <meta name="keywords" content="学習指導案,指導案　書き方,指導案　テンプレート,学習指導案検索サイト,指導案　検索,指導案　例">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/icon.ico">
+　<!-- Global site tag (gtag.js) - Google Analytics -->
+　<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQ7J9VP9P0"></script>
+　<script>
+  　window.dataLayer = window.dataLayer || [];
+ 　 function gtag(){dataLayer.push(arguments);}
+ 　 gtag('js', new Date());
+　
+　  gtag('config', 'G-XQ7J9VP9P0');
+　</script>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="pattern">
+            <img class="pattern1" src="img/模様１.png" alt="">
+            <img class="pattern2" src="img/模様２.png" alt="">
+            <img class="pattern3" src="img/模様３.png" alt="">
+            <img class="pattern4" src="img/模様４.png" alt="">
+        </div>
+        <div class="top-content">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="title" src="img/title.png" alt="">
+                        <img class="subtitle" src="img/subtitle.png" alt="">
+                    </a>
+                </div>
+                <div class="searchForm">
+                    <input placeholder="Search..." type="text">
+                    <i class="material-icons hamburger">search</i>
+                </div>
+                <p class="goButton btn">Go</p>
+            </div>
+        </div>
+        <div class="innner">
+            <!-- 学年選択 -->
+            <div class="modal grade-modal open">
+                <div class="container">
+                    <h2>学年を選択してください</h2>
+                    <img class="icon" id="第1学年" src="img/小学1年生.png" alt="">
+                    <img class="icon" id="第2学年" src="img/小学2年生.png" alt="">
+                    <img class="icon" id="第3学年" src="img/小学3年生.png" alt="">
+                    <img class="icon" id="第4学年" src="img/小学4年生.png" alt="">
+                    <img class="icon" id="第5学年" src="img/小学5年生.png" alt="">
+                    <img class="icon" id="第6学年" src="img/小学6年生.png" alt="">
+                    <img class="icon" id="中学校第1学年" src="img/中学1年生.png" alt="">
+                    <img class="icon" id="中学校第2学年" src="img/中学2年生.png" alt="">
+                    <img class="icon" id="中学校第3学年" src="img/中学3年生.png" alt="">
+                    <img class="icon" id="高等学校" src="img/高校生.png" alt="">
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- 教科選択 -->
+            <div class="modal subject-modal close">
+                <div class="container">
+　　　　 　<h2>教科を選択してください</h2>
+                    <img class="icon close" id="国語" src="img/国語.png" alt="">
+                    <img class="icon close" id="現代文" src="img/現代文.png" alt="">
+                    <img class="icon close" id="古文" src="img/古文.png" alt="">
+                    <img class="icon close" id="漢文" src="img/漢文.png" alt="">
+                    <img class="icon close" id="算数" src="img/算数.png" alt="">
+                    <img class="icon close" id="数学" src="img/数学.png" alt="">
+                    <img class="icon close" id="数学１" src="img/数学１.png" alt="">
+                    <img class="icon close" id="数学２" src="img/数学２.png" alt="">
+                    <img class="icon close" id="数学３" src="img/数学３.png" alt="">
+                    <img class="icon close" id="数学A" src="img/数学A.png" alt="">
+                    <img class="icon close" id="数学B" src="img/数学B.png" alt="">
+                    <img class="icon close" id="理科" src="img/理科.png" alt="">
+                    <img class="icon close" id="化学基礎" src="img/化学基礎.png" alt="">
+                    <img class="icon close" id="物理基礎" src="img/物理基礎.png" alt="">
+                    <img class="icon close" id="生物基礎" src="img/生物基礎.png" alt="">
+                    <img class="icon close" id="地学基礎" src="img/地学基礎.png" alt="">
+                    <img class="icon close" id="化学" src="img/化学.png" alt="">
+                    <img class="icon close" id="物理" src="img/物理.png" alt="">
+                    <img class="icon close" id="生物" src="img/生物.png" alt="">
+                    <img class="icon close" id="地学" src="img/地学.png" alt="">
+                    <img class="icon close" id="社会" src="img/社会.png" alt="">
+                    <img class="icon close" id="歴史" src="img/歴史.png" alt="">
+                    <img class="icon close" id="日本史" src="img/日本史.png" alt="">
+                    <img class="icon close" id="世界史" src="img/世界史.png" alt="">
+                    <img class="icon close" id="地理" src="img/地理.png" alt="">
+                    <img class="icon close" id="公民" src="img/公民.png" alt="">
+                    <img class="icon close" id="現代社会" src="img/現代社会.png" alt="">
+                    <img class="icon close" id="倫理" src="img/倫理.png" alt="">
+                    <img class="icon close" id="英語" src="img/英語.png" alt="">
+                    <img class="icon close" id="音楽" src="img/音楽.png" alt="">
+                    <img class="icon close" id="図工" src="img/図工.png" alt="">
+                    <img class="icon close" id="美術" src="img/美術.png" alt="">
+                    <img class="icon close" id="技術" src="img/技術.png" alt="">
+                    <img class="icon close" id="情報の科学" src="img/情報の科学.png" alt="">
+                    <img class="icon close" id="社会と情報" src="img/社会と情報.png" alt="">
+                    <img class="icon close" id="家庭" src="img/家庭.png" alt="">
+                    <img class="icon close" id="家庭基礎" src="img/家庭基礎.png" alt="">
+                    <img class="icon close" id="家庭総合" src="img/家庭総合.png" alt="">
+                    <img class="icon close" id="生活デザイン" src="img/a.png" alt="">
+                    <img class="icon close" id="保健" src="img/保健.png" alt="">
+                    <img class="icon close" id="体育" src="img/体育.png" alt="">
+                    <img class="icon close" id="書道" src="img/書道.png" alt="">
+                    <img class="icon close" id="生活" src="img/生活.png" alt="">
+                    <img class="icon close" id="道徳" src="img/道徳.png" alt="">
+                    <img class="icon close" id="特活" src="img/特活.png" alt="">
+                    <div class="clear"></div>
+                    <p class="prevButton btn">Back</p>
+                </div>
+            </div>
+            <!-- ジャンル選択 -->
+            <template id="template">
+                <div class="content-icon icon">
+                    <div class="icon-color">
+                        <p class="icon-text"></p>
+                    </div>
+                </div>
+            </template>
+            <div class="modal content-modal close">
+                <div class="container">
+                    <h2>ジャンルを選択してください</h2>
+                    <div id="icons"></div>
+                    <p class="prevButton btn">Back</p>
+                </div>
+            </div>
+        <div>
+        <form action="">
+            <input type="hidden" name="grade" id="grade">
+            <input type="hidden" name="subject" id="subject">
+            <input type="hidden" name="content" id="content">
+            <input type="hidden" name="content" id="keyword">
+        </form>
+        </div>
+    </main>
+<footer>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js?date=2021/4/25"></script>
+<script type="text/javascript" src="data.js"></script>
